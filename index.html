@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script type="module" src="./modules/firebase.js" defer></script>
     <script type="module" src="./modules/main.js" defer></script>
 </head>
 <body>
-    
+    <div id="login-box">
+        <div class="left">
+          <!-- register -->
+          <h1 id='status'>Register</h1>
+          <input type="email" id="user_email"  placeholder="email" />
+          <input type="password" id="user_passwd"  placeholder="password" />
+          <!-- <input type="password" id="register_password"  placeholder="Password" />
+           -->
+          <input type="submit" id='signUp' name="signup_submit" value="Sign Up" />
+          
+        </div>
+        
+        <div class="right">
+          <!-- Login -->
+          <h1 >Login</h1>
+          <input type="email" id="login_email"  placeholder="email" />
+          <input type="password" id="login_password"  placeholder="Password" />
+          
+          <input type="submit" id='signIn'  value="Sign In" />
+          <input type="submit" id='signOut'  value="Sign Out" />
+        </div>
+        <div class="or">OR</div>
+      </div>
+
+
 </body>
 </html>

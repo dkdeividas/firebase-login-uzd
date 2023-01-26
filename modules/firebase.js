@@ -2,6 +2,7 @@
   const firebaseConfig = {
     apiKey: "AIzaSyAGL6AlstPjBLBvw7mxioJLyPzdc_lz0Ro",
     authDomain: "login-uzduotis.firebaseapp.com",
+    databaseURL: "https://login-uzduotis-default-rtdb.europe-west1.firebasedatabase.app/",
     projectId: "login-uzduotis",
     storageBucket: "login-uzduotis.appspot.com",
     messagingSenderId: "684908319806",
